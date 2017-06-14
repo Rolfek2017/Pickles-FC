@@ -1,3 +1,11 @@
+.header img {float: left;
+			width: 100px;
+}
+
+ul nav{list-style-type: none;
+		float: left;
+}
+
 h1 {font-family: geomanist-bold; 
 	font-size: 60px;
 }
@@ -15,9 +23,6 @@ h3 {font-family: geomanist-bold;
 	font-size: 13px;
 }
 
-ul .nav{list-style-type: none;
-
-}
 .submit-button {background-color: #7ed321;
 				text-align: center;
 }
