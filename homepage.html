@@ -3,51 +3,90 @@
 <html>
 	<head>
 		<title>Pickles FC</title>
+		<link href='bootstrap-3.3.7-dist/main.css' rel ='stylesheet'>
 		<link rel="stylesheet" type ="text/css" href="website-css.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 
 		<header class="header">
-			<img src="img/logo.png" alt="Pickles FC logo"/>
-			<nav class="main-navigation">
-				<ul class="nav">
+			<nav class="navbar navbar-fixed-top navbar-inverse">
+			<img src="images/logo.png" alt="Pickles FC logo"/>
+			<div class="container">
+				<ul class="nav navbar-nav">
 					<li> <a href="/the-club">The Club</a></li>
 					<li> <a href="/the-players">The Players</a></li>
-					<li> <a href="/the-shop">The Shop</a></li>
+					<li> <a href "/the-shop">The Shop</a></li>
 					<li> <a href="/collaborations">Collaborations</a></li>
 				</ul>
+				</div>
 			</nav>
-		</header>
-		
-		
-
-		<img class="main-image" src="img/homepage-main.jpg" alt="Pickles FC logo"/>
-
-		<div= class="two-col-images">
-			<img class="left-image">src="img/nextmatch_image.jpg" alt="Football pitch"/>
-			<img class="right-image">src="img/theplayers_image.jpg" alt="Player of the month"/>
+			</header>
+	
+		<div class="jumbotron">
+			<h1>Pickles FC</h1>
+			<p><a class=".submit-button" href="/the-club" role="button">FIND OUT MORE</a></p>
 		</div>
+		
+		<img class="main-image" src="images/homepage-main.jpg" alt="Pickles FC logo"/>
 
-		<div class="hp-paras"
-			<span class="shop">
-			<h3>Pickles FC shirt</h3>
-			<p>
-			Text about the shop goes here
-			</p>
-			</span>
-		<span class="collaborations">
-		<h3>Pickles meets FBB</h3>
-		<p>
-		Text about collaborations goes here
-		</p>
-		</span>
-		<span class="newsletter">
-		<h3>Pickles issue 13 out now</h3>
-		<p>
-		Text about the newsletter goes here
-		</p>
-		</span>
-		</div>
+
+			<div class='container more-info'>
+				<div class='row'>
+					<div class='col-sm-6'>
+						<img class='img-responsive center-block' src="images/nextmatch_image.jpg" alt="Football pitch">
+						<p>Next Match</p>
+					</div>
+					
+					<div class='col-sm-6'>
+						<img class='img-responsive center-block' src="images/theplayers_image.jpg" alt="Player of the month">
+						<p>The Players</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class='container hp-paras'>
+				<div class='row'>
+					<div class='col-sm-6'>
+					<img class='img-responsive center-block' src="images/picklestshirt_image.jpg" alt="Pickles T-shirt">
+					</div>
+					
+					<div class='col-sm-6'>
+					<h6> The Shop</h6>
+					<h3>Pickles FC shirt</h3>
+					<p>Pickles X Hunnel shirt is made from moisture wicking polyester and venitlating mesh. Featuring the Pickles badge.</p>
+					<a class="btn btn-default" href="/shop" role="button">SHOP T-SHIRTS</a>
+					</div>
+				</div>
+
+	
+					<div class='row'>
+						<div class='col-sm-6'>
+						<img class='img-responsive center-block' src="images/collabs_image.jpg" alt="Collaborations">
+						</div>
+					
+						<div class='col-sm-6'>
+						<h6>Collaborations</h6>
+						<h3>Pickles meets FBB</h3>
+						<p>Need text for here.</p>
+						<a class="btn btn-default" href="/shop" role="button">FIND OUT MORE</a>
+						</div>
+					</div>
+					
+					<div class='row'>
+						<div class='col-sm-6'>
+						<img class='img-responsive center-block' src="images/magazine_image.jpg" alt="Pickles magazine">
+						</div>
+					
+						<div class='col-sm-6'>
+						<h6>The Shop</h6>
+						<h3>Pickles issue 13 out now</h3>
+						<p>Featuring 10 articles, two photo essays, more than 20 original artworks, a fashion feature, an interview with Will Hughes, and loads more.</p>
+						<a class="btn btn-default" href="/shop" role="button">SHOP CURRENT ISSUE</a>
+						</div>
+					</div>
+			</div>
+			
 
 		<footer>
 		</footer>
