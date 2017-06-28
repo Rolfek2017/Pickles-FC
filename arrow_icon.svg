@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="146px" height="36px" viewBox="0 0 146 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Collaborations" transform="translate(-341.000000, -1366.000000)">
+            <g id="section2" transform="translate(140.000000, 1050.000000)">
+                <g id="arrow" transform="translate(19.000000, 316.000000)">
+                    <text id="READ-MORE" font-family="Geomanist-Bold, Geomanist" font-size="18" font-weight="bold" fill="#222222">
+                        <tspan x="231.247" y="25">READ MORE</tspan>
+                    </text>
+                    <ellipse id="Oval-3" fill="#7ED321" cx="199.982707" cy="17.9845728" rx="17.9827071" ry="17.9845728"></ellipse>
+                    <path d="M208.82199,16.7187775 L202.827757,10.3489594 C202.421573,9.98391026 201.642697,9.83321459 201.188709,10.2552898 C200.741539,10.6709956 200.754839,11.4772286 201.200322,11.8945829 L205.415018,16.3675315 L193.123919,16.3675315 C192.503216,16.3675315 192,16.8707845 192,17.4915892 C192,18.1123939 192.503216,18.615662 193.123919,18.615662 L205.415018,18.615662 L201.200322,23.0886105 C200.816804,23.4728433 200.745922,24.3074395 201.188709,24.7279036 C201.631383,25.1483303 202.438244,25.0140081 202.827757,24.6341965 L208.82199,18.264401 C209.027105,18.046413 209.127059,17.7906576 209.126384,17.4915892 C209.115894,17.2236942 209.005638,16.9140599 208.82199,16.7187775 Z" id="Shape" fill="#000000"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
