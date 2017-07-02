@@ -1,3 +1,13 @@
+@font-face {
+	font-family: Geomanist-Regular;
+	src: url('fonts/Geomanist-Regular.otf');
+}
+
+@font-face {
+	font-family: Geomanist-Bold;
+	src: url('fonts/Geomanist-Bold.otf');
+}
+
 #header {
 	background-color: #000;
 
@@ -7,11 +17,12 @@
 	color: #fff;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	font-family: geomanist-bold;
+	font-family: 'Geomanist-Bold', helvetica, sans-serif;
+
 }
 
 #header img {
-	float:  left;
+	float: left;
 	width: 50px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -24,25 +35,21 @@
 	font-size:20px;
 }
 
+.navbar-header {
+	padding-left: 60px;
+}
+
+.navbar-header a {
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
+}
+
 .navbar-brand {
 	font-size: 30px;
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
 }
 
 .navbar-inverse {
 	background-color: rgba(32, 35, 41, 0.8);
-}
-
-
-h1 {font-family: geomanist-bold;
-	font-size: 50px;
-}
-
-h2 {font-family: geomanist-bold;
-	font-size: 32px;
-}
-
-body {
-	padding-top: 70px;
 }
 
 .submit-button {
@@ -60,19 +67,51 @@ body {
 	font-size: 50px;
 }
 
-.jumbotron p
-	{font-family: geomanist;
+.jumbotron p {
+	font-family:'Geomanist-Regular', helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 28px;
 }
 
+
+.collaborations {
+	padding-bottom: 30px;
+}
+
+.whoarewe {
+	padding-top: 30px;
+}
+
+.wheredoweplay {
+	padding-top: 30px;
+}
+
+.wanttocollaborate {
+	padding-top: 30px;
+}
+
+.instagram {
+	padding-top: 30px;
+}
+
+.image3 {
+	padding-top: 30px;
+}
+
 ul.navtheclub li{
-	font-family: geomanist-bold;
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
 	font-size: 18px;
-	color: #000;
 	display: inline-block;
    	padding-right: 40px;
    	padding-top: 40px;
+}
+
+li.active {
+	color: #000;
+}
+
+.breadcrumb>.active {
+	color: #000;
 }
 
 .textcenter {
@@ -80,11 +119,11 @@ ul.navtheclub li{
 }
 
 .signoff p{
-	font-family: geomanist-bold;
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
 }
 
 .caption p{
-	font-family: geomanist-bold;
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	color: #999;
@@ -94,15 +133,77 @@ ul.navtheclub li{
 	padding-top: 30px;
 }
 
-ol.breadcrumb  {
+ol.breadcrumb {
 	background-color: #ffffff;
-	font-family: geomanist-bold;
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
 	font-size: 13px;
+	padding-left: 0px;
 }
 
-.secondary-button {
+
+.btn {
+	font-family:'Geomanist-Regular', helvetica, sans-serif;
+    color: #000;
+    border-radius: 0px;
+    background-color: #7ED321;
+}
+
+.secondarybutton {
     font-weight: 500;
     font-size: inherit;
     line-height: 1.5;
+}
+
+a.hover {
+	color: #7ED321;
+}
+
+h1 {font-family:'Geomanist-Bold', helvetica, sans-serif;
+	font-size: 50px;
+}
+
+h2 {font-family:'Geomanist-Bold', helvetica, sans-serif;
+	font-size: 32px;
+}
+
+body {
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
+	padding-top: 70px;
+	color: #000;
+}
+
+a {
+    color: #CBCBCB;
+    text-decoration: none;
+    font-family:'Geomanist-Bold', helvetica, sans-serif;
+}
+
+
+a:hover,
+a:focus {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+button.btn.btn-success {
+	font-family: 'Geomanist-Bold', helvetica, sans-serif;
+	font-size: 16px;
+	border-radius: 0px;
+	background-color: #7ED321;
+	vertical-align: middle;
+	border: 0px;
+	min-width: 190px;
+	height: 48px;
+}
+
+.form-group input[type=text] {
+	font-family:'Geomanist-Regular', helvetica, sans-serif;
+    border: 1px solid #eee;
+    color: #000;
+    height: 48px;
+    padding: 0 20px;
+    min-width: 240px;
+    border-radius: 0px;
 }
 
