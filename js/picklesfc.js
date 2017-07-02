@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("secondarybutton").hover(function(){
-		$("secondarybutton").toggleClass("a.hover");
+	$("button").hover(function(){
+		$("button").addClass("btnhover")
 	}
 });
