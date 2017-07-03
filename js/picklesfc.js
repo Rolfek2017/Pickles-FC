@@ -3,6 +3,6 @@ $(document).ready(function(){
   		$( this ).css( "background-color", "#5EA215",);
 	});
 	$( ".btn-success" ).on( "mouseleave", function() {
-  		$( this ).css( "background-color", "#7dc42e",);
+  		$( this ).css( "background-color", "#7ED321",);
 	});
  });

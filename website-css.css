@@ -29,6 +29,11 @@
 	margin-right: 10px;
 }
 
+a:hover,
+a:focus {
+  color: #7ED321;
+  text-decoration: none;
+}
 
 #header li {
 	margin-left: 30px;
@@ -41,6 +46,11 @@
 
 .navbar-header a {
 	font-family:'Geomanist-Bold', helvetica, sans-serif;
+}
+
+.nav.navbar-nav li a:hover,
+.nav.navbar-nav li a:focus {
+  color: #7ed321;
 }
 
 .navbar-brand {
@@ -198,13 +208,11 @@ a {
     font-family:'Geomanist-Bold', helvetica, sans-serif;
 }
 
-
 a:hover,
 a:focus {
   color: #7ED321;
-  text-decoration: underline;
+  text-decoration: none;
 }
-
 
 button.btn.btn-success {
 	font-family: 'Geomanist-Bold', helvetica, sans-serif;
@@ -227,5 +235,4 @@ button.btn.btn-success {
     min-width: 240px;
     border-radius: 0px;
 }
-
 
