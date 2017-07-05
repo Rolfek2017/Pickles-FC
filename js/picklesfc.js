@@ -1,5 +1,10 @@
 $(document).ready(function(){
-	$("button").click(function() {
-  		$("form-group").hide();
+	$(".test").hide();
+	$("form").submit(function(e) {
+    	e.preventDefault();
+	});
+	$(".enterDetails").click(function() {
+  		$(".form-group").hide();
+  		$(".test").show();
 	});
  });

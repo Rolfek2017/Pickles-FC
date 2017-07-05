@@ -15,27 +15,21 @@
 
 #header a {
 	color: #fff;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	transition: color 0.5s;
 	font-family: 'Geomanist-Bold', helvetica, sans-serif;
 
 }
 
 #header a:hover {
 	color: #7ed321;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	transition: color 0.5s;
-	font-family: 'Geomanist-Bold', helvetica, sans-serif;
-
 }
 
 #header img {
-	float: left;
 	width: 50px;
-	margin-top: 20px;
-	margin-bottom: 20px;
 	margin-right: 10px;
+	display:inline-block;
+	vertical-align: top;
+	margin-top: -15px;
 }
 
 
@@ -44,8 +38,10 @@
 	font-size:20px;
 }
 
-.navbar-header {
-	padding-left: 60px;
+
+.navbar {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .navbar-header a {
@@ -64,6 +60,20 @@
 .submit-button {
 	background-color: #7ed321;
 	text-align: center;
+}
+
+.homepage-main {
+    min-height: 600px;
+    background-image: url('images/mainimage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.vertical-text-main {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-25%);
 }
 
 
@@ -107,6 +117,18 @@
 
 .image3 {
 	padding-top: 30px;
+}
+
+
+div.vertical-container {
+    height: 570px;
+    position: relative;
+}
+div.vertical-text-para{
+position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 
 form.formpadding {
@@ -195,7 +217,18 @@ a {
     transition: color 0.5s;
 }
 
+p {
+	font-family: 'Geomanist-Regular', helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+}
+
 a:hover {
+  color: #7ED321;
+  text-decoration: none;
+}
+
+a:focus {
   color: #7ED321;
   text-decoration: none;
 }
@@ -223,7 +256,7 @@ button:focus {
 }
 
 
-.form-group input[type=text] {
+.form-group input {
 	font-family:'Geomanist-Regular', helvetica, sans-serif;
     border: 1px solid #eee;
     color: #000;
@@ -238,18 +271,19 @@ input.form-control:focus {
   box-shadow: none;
 }
 
+
+
+
 footer {
+	color: #ffffff;
+	font-family:'Geomanist-Regular', helvetica, sans-serif;
 	text-align: center;
 	background-color: #000000;
-	min-height: 60px;
-	padding-top: 20px;
+	min-height: 80px;
+	padding-top: 30px;
 }
 
-footer a {
-	color: white;
-	padding-right: 30px;
-	padding-right: 20px;
-}
+
 
 
 
