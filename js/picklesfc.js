@@ -1,8 +1,5 @@
 $(document).ready(function(){
-	$( ".btn-success" ).on( "mouseover", function() {
-  		$( this ).css( "background-color", "#5EA215",);
-	});
-	$( ".btn-success" ).on( "mouseleave", function() {
-  		$( this ).css( "background-color", "#7ED321",);
+	$("button").click(function() {
+  		$("form-group").hide();
 	});
  });

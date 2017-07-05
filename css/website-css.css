@@ -21,6 +21,15 @@
 
 }
 
+#header a:hover {
+	color: #7ed321;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	transition: color 0.5s;
+	font-family: 'Geomanist-Bold', helvetica, sans-serif;
+
+}
+
 #header img {
 	float: left;
 	width: 50px;
@@ -49,13 +58,14 @@
 }
 
 .navbar-inverse {
-	background-color: rgba(32, 35, 41, 0.8);
+	background-color: #000000;
 }
 
 .submit-button {
 	background-color: #7ed321;
 	text-align: center;
 }
+
 
 .jumbotron {
 	background-color: #ffffff
@@ -92,6 +102,7 @@
 
 .instagram {
 	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .image3 {
@@ -164,22 +175,6 @@ ol.breadcrumb {
 	padding-left: 0px;
 }
 
-
-.btn {
-	font-family:'Geomanist-Regular', helvetica, sans-serif;
-    color: #000;
-    border-radius: 0px;
-    background-color: #7ED321;
-}
-
-.secondarybutton {
-    font-weight: 500;
-    font-size: inherit;
-    line-height: 1.5;
-}
-
-
-
 h1 {font-family:'Geomanist-Bold', helvetica, sans-serif;
 	font-size: 50px;
 }
@@ -196,19 +191,17 @@ body {
 
 a {
     color: #CBCBCB;
-    text-decoration: none;
     font-family:'Geomanist-Bold', helvetica, sans-serif;
+    transition: color 0.5s;
 }
 
-
-a:hover,
-a:focus {
+a:hover {
   color: #7ED321;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
-button.btn.btn-success {
+button {
 	font-family: 'Geomanist-Bold', helvetica, sans-serif;
 	font-size: 16px;
 	border-radius: 0px;
@@ -217,12 +210,18 @@ button.btn.btn-success {
 	border: 0px;
 	min-width: 190px;
 	height: 48px;
+	transition: background-color 0.5s;
 }
 
+button:hover {
+	background-color: #7DC42E;
 
-.btnhover {
-	background-color: #74C51A;
 }
+
+button:focus {
+	outline:0;
+}
+
 
 .form-group input[type=text] {
 	font-family:'Geomanist-Regular', helvetica, sans-serif;
@@ -233,4 +232,24 @@ button.btn.btn-success {
     min-width: 240px;
     border-radius: 0px;
 }
+
+input.form-control:focus {
+  border-color: #000000;
+  box-shadow: none;
+}
+
+footer {
+	text-align: center;
+	background-color: #000000;
+	min-height: 60px;
+	padding-top: 20px;
+}
+
+footer a {
+	color: white;
+	padding-right: 30px;
+	padding-right: 20px;
+}
+
+
 
