@@ -40,8 +40,9 @@
 
 
 .navbar {
-	padding-top: 20px;
+	padding-top: 25px;
 	padding-bottom: 20px;
+
 }
 
 .navbar-header a {
@@ -51,15 +52,19 @@
 .navbar-brand {
 	font-size: 30px;
 	font-family:'Geomanist-Bold', helvetica, sans-serif;
+
 }
 
 .navbar-inverse {
 	background-color: #000000;
 }
 
-.submit-button {
-	background-color: #7ed321;
-	text-align: center;
+.top {
+	padding-top: 60px;
+}
+
+.bottom {
+	padding-bottom: 20px;
 }
 
 .homepage-main {
@@ -76,47 +81,31 @@
   transform: translate(-50%,-25%);
 }
 
-
-.jumbotron {
-	background-color: #ffffff
-}
-
-
-.jumbotron h1{
-	text-align: center;
-	font-size: 50px;
-}
-
-.jumbotron p {
-	font-family:'Geomanist-Regular', helvetica, sans-serif;
-	font-size: 18px;
-	line-height: 28px;
-}
-
-
-.collaborations {
-	padding-bottom: 30px;
-}
-
-.whoarewe {
-	padding-top: 30px;
-}
-
 .wheredoweplay {
-	padding-top: 40px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
 .wanttocollaborate {
-	padding-top: 40px;
-}
-
-.instagram {
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.image3 {
 	padding-top: 30px;
+}
+
+.wanttoplay {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.instagram{
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.theplayers2 {
+	padding-top: 30px;
+}
+
+.theplayers {
+	padding-top: 80px;
 }
 
 
@@ -128,11 +117,11 @@ div.vertical-text-para{
 position: absolute;
   top: 50%;
   left:50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-60%);
 }
 
 form.formpadding {
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 .formmaxwidth input {
@@ -174,22 +163,6 @@ li.active {
 	color: #999;
 }
 
-.row {
-	padding-top: 30px;
-}
-
-.intro {
-	padding-bottom: 30px;
-}
-
-.subheadpad {
-	padding-bottom: 10px;
-}
-
-.imagepadding {
-	padding-bottom: 30px;
-}
-
 ol.breadcrumb {
 	background-color: #ffffff;
 	font-family:'Geomanist-Bold', helvetica, sans-serif;
@@ -203,6 +176,7 @@ h1 {font-family:'Geomanist-Bold', helvetica, sans-serif;
 
 h2 {font-family:'Geomanist-Bold', helvetica, sans-serif;
 	font-size: 32px;
+	padding-top: 20px;
 }
 
 body {
@@ -234,7 +208,7 @@ a:focus {
 }
 
 
-button {
+button.enterDetails {
 	font-family: 'Geomanist-Bold', helvetica, sans-serif;
 	font-size: 16px;
 	border-radius: 0px;
@@ -246,12 +220,12 @@ button {
 	transition: background-color 0.5s;
 }
 
-button:hover {
+button.enterDetails:hover {
 	background-color: #7DC42E;
 
 }
 
-button:focus {
+button.enterDetails:focus {
 	outline:0;
 }
 
@@ -272,16 +246,19 @@ input.form-control:focus {
 }
 
 
-
-
-footer {
+#footer p {
 	color: #ffffff;
 	font-family:'Geomanist-Regular', helvetica, sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	padding-top: 30px;
 	text-align: center;
 	background-color: #000000;
 	min-height: 80px;
-	padding-top: 30px;
 }
+
+
+
 
 
 
