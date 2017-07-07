@@ -17,8 +17,19 @@
 	color: #fff;
 	transition: color 0.5s;
 	font-family: 'Geomanist-Bold', helvetica, sans-serif;
-	border-bottom: 3px solid;
+	}
+
+#header a span{
+	color: #ffffff;
+	border-bottom: 2px solid;
+	padding-bottom: 10px;
 	border-color: transparent;
+	transition: border-bottom 0.5s;
+}
+
+#header a span:hover{
+	color: #7ed321;
+	border-color: #7ed321;
 }
 
 
@@ -31,8 +42,6 @@
 	color: #7ed321;
 	border-color: #7ed321;
 }
-
-
 
 
 #header img {
@@ -63,6 +72,7 @@
 .navbar-brand {
 	font-size: 30px;
 	font-family:'Geomanist-Bold', helvetica, sans-serif;
+	border-bottom: none;
 
 }
 
@@ -107,8 +117,8 @@
 }
 
 .instagram{
-	padding-bottom: 40px;
 	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 .theplayers2 {
@@ -198,13 +208,6 @@ body {
 	color: #000;
 }
 
-a {
-    color: #CBCBCB;
-    font-family:'Geomanist-Bold', helvetica, sans-serif;
-    transition: color 0.5s;
-    border-bottom: 2px solid;
-	border-color: transparent;
-}
 
 p {
 	font-family: 'Geomanist-Regular', helvetica, sans-serif;
@@ -212,11 +215,22 @@ p {
 	line-height: 28px;
 }
 
-a:hover {
+
+a.link {
+    color: #CBCBCB;
+    font-family:'Geomanist-Bold', helvetica, sans-serif;
+    transition: color 0.5s;
+    border-bottom: 2px solid;
+    border-color: transparent;
+	transition: border-bottom 0.5s;
+}
+
+a.link:hover {
   color: #7ED321;
   text-decoration: none;
   border-color: #7ed321;
-}
+
+ }
 
 
 button.enterDetails {
@@ -241,6 +255,17 @@ button.enterDetails:focus {
 }
 
 
+button.enterDetails img {
+	padding-left: 3px;
+	transform: translate(0px,0);
+	transition: all 0.5s;
+}
+
+button.enterDetails img:hover {
+	transform: translate(10px,0);
+
+}
+
 .form-group input {
 	font-family:'Geomanist-Regular', helvetica, sans-serif;
     border: 1px solid #eee;
@@ -256,6 +281,28 @@ input.form-control:focus {
   box-shadow: none;
 }
 
+.btn-secondary {
+	padding-left: 10px;
+}
+
+.btn-secondary img {
+	padding-left: 5px;
+	cursor: pointer;
+	transform: translate(0px,0);
+	transition: all 0.5s;
+}
+
+.btn-secondary img:hover {
+	transform: translate(10px,0);
+}
+
+
+.btn-secondary a {
+	color: #000000;
+	border-bottom: none;
+	font-size: 16px;
+}
+
 
 #footer p {
 	color: #ffffff;
@@ -269,7 +316,13 @@ input.form-control:focus {
 }
 
 
+.success {
+	padding-top: 60px;
+}
 
+.success h2 {
+	padding-top:0px
+}
 
 
 

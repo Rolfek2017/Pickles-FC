@@ -1,10 +1,21 @@
 $(document).ready(function(){
-	$(".test").hide();
+	$(".success").hide();
 	$("form").submit(function(e) {
     	e.preventDefault();
 	});
 	$(".enterDetails").click(function() {
-  		$(".form-group").hide();
-  		$(".test").show();
+  		$("#wanttoplay").hide();
+  		$(".success").show();
 	});
+
+
+	$(".success").hide();
+	$("form").submit(function(e) {
+    	e.preventDefault();
+	});
+	$(".enterDetails").click(function() {
+  		$(".wanttocollaborate").hide();
+  		$(".success").show();
+	});
+
  });
