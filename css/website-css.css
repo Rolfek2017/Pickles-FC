@@ -17,12 +17,23 @@
 	color: #fff;
 	transition: color 0.5s;
 	font-family: 'Geomanist-Bold', helvetica, sans-serif;
-
+	border-bottom: 3px solid;
+	border-color: transparent;
 }
+
 
 #header a:hover {
 	color: #7ed321;
+	border-color: #7ed321;
 }
+
+#header a:active {
+	color: #7ed321;
+	border-color: #7ed321;
+}
+
+
+
 
 #header img {
 	width: 50px;
@@ -170,6 +181,8 @@ ol.breadcrumb {
 	padding-left: 0px;
 }
 
+
+
 h1 {font-family:'Geomanist-Bold', helvetica, sans-serif;
 	font-size: 50px;
 }
@@ -189,6 +202,8 @@ a {
     color: #CBCBCB;
     font-family:'Geomanist-Bold', helvetica, sans-serif;
     transition: color 0.5s;
+    border-bottom: 2px solid;
+	border-color: transparent;
 }
 
 p {
@@ -200,11 +215,7 @@ p {
 a:hover {
   color: #7ED321;
   text-decoration: none;
-}
-
-a:focus {
-  color: #7ED321;
-  text-decoration: none;
+  border-color: #7ed321;
 }
 
 
