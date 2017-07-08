@@ -8,7 +8,6 @@ $(document).ready(function(){
   		$(".success").show();
 	});
 
-
 	$(".success").hide();
 	$("form").submit(function(e) {
     	e.preventDefault();

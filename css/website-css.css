@@ -121,6 +121,10 @@
 	padding-bottom: 40px;
 }
 
+.instagram h2 {
+	padding-bottom: 20px;
+}
+
 .theplayers2 {
 	padding-top: 30px;
 }
@@ -129,6 +133,16 @@
 	padding-top: 80px;
 }
 
+.mainprofile {
+	background-image: url('../images/mainprofile_image.jpg');
+	min-height: 789px;
+	background-repeat: no-repeat;
+}
+
+h3 {
+	position: relative;
+	color: #ffffff;
+}
 
 div.vertical-container {
     height: 570px;
@@ -277,7 +291,7 @@ button.enterDetails img:hover {
 }
 
 input.form-control:focus {
-  border-color: #000000;
+  border-color: #7DC42E;
   box-shadow: none;
 }
 
@@ -301,6 +315,12 @@ input.form-control:focus {
 	color: #000000;
 	border-bottom: none;
 	font-size: 16px;
+  	transition: color 0.5s;
+  	text-decoration: none;
+}
+
+.btn-secondary a:hover {
+	color: #7DC42E;
 }
 
 
