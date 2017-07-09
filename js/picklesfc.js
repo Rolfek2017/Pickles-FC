@@ -17,4 +17,16 @@ $(document).ready(function(){
   		$(".success").show();
 	});
 
+	$(".alextext").hide();
+	$(".alex").click(function(e) {
+
+	});
+	$(".readmore").click(function() {
+  		$(".alex").hide();
+  		$(".alextext").show();
+	});
+
+
  });
+
+

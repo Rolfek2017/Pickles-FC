@@ -8,8 +8,10 @@
 	src: url('fonts/Geomanist-Bold.otf');
 }
 
+
 #header {
 	background-color: #000;
+	margin-bottom: 70px;
 
 }
 
@@ -80,9 +82,6 @@
 	background-color: #000000;
 }
 
-.top {
-	padding-top: 60px;
-}
 
 .bottom {
 	padding-bottom: 20px;
@@ -126,12 +125,14 @@
 }
 
 
-.theplayers {
-	padding-top: 80px;
-}
-
 .container2 {
     position: relative;
+    filter: grayscale(0%);
+    transition: filter 1s;
+}
+
+.container2:hover {
+    filter: grayscale(100%);
 }
 
 .center {
@@ -142,7 +143,32 @@
     color: #ffffff;
     text-align: center;
     font-size: 18px;
+    transition: color 1s;
 }
+
+.center:hover {
+ 	cursor: pointer;
+    color: #7ED321;
+}
+
+
+
+h3.centersmall {
+    position: absolute;
+    left: 0;
+    top: 76%;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    transition: color 1s;
+}
+
+h3.centersmall:hover {
+	cursor: pointer;
+    color: #7ED321;
+}
+
 
 img.playerpics {
     width: 100%;
@@ -151,10 +177,26 @@ img.playerpics {
 }
 
 
+.alextext {
+	background-color: #000000;
+	margin-bottom: 30px;
+}
+
+.readmore {
+	cursor: pointer;
+}
+
+
+img.theclubpics {
+    margin-top: 20px;
+}
+
+
 div.vertical-container {
     height: 570px;
     position: relative;
 }
+
 div.vertical-text-para{
 position: absolute;
   top: 50%;
@@ -211,7 +253,6 @@ ol.breadcrumb {
 	font-size: 13px;
 	padding-left: 0px;
 }
-
 
 
 h1 {font-family:'Geomanist-Bold', helvetica, sans-serif;
@@ -350,6 +391,7 @@ input.form-control:focus {
 .success h2 {
 	padding-top:0px
 }
+
 
 
 
