@@ -125,24 +125,31 @@
 	padding-bottom: 20px;
 }
 
-.theplayers2 {
-	padding-top: 30px;
-}
 
 .theplayers {
 	padding-top: 80px;
 }
 
-.mainprofile {
-	background-image: url('../images/mainprofile_image.jpg');
-	min-height: 789px;
-	background-repeat: no-repeat;
+.container2 {
+    position: relative;
 }
 
-h3 {
-	position: relative;
-	color: #ffffff;
+.center {
+    position: absolute;
+    left: 0;
+    top: 88%;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
 }
+
+img.playerpics {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
 
 div.vertical-container {
     height: 570px;
