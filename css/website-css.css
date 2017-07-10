@@ -180,6 +180,13 @@ img.playerpics {
 .alextext {
 	background-color: #000000;
 	margin-bottom: 30px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 30%;
+	padding-bottom: 23.5%;
+	padding-left: 30px;
+	padding-right: 30px;
+
 }
 
 .readmore {
@@ -323,7 +330,7 @@ button.enterDetails img {
 	transition: all 0.5s;
 }
 
-button.enterDetails img:hover {
+button.enterDetails:hover img {
 	transform: translate(10px,0);
 
 }
@@ -354,7 +361,7 @@ input.form-control:focus {
 	transition: all 0.5s;
 }
 
-.btn-secondary img:hover {
+.btn-secondary:hover img {
 	transform: translate(10px,0);
 }
 
@@ -386,12 +393,84 @@ input.form-control:focus {
 
 .success {
 	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
-.success h2 {
-	padding-top:0px
+
+.successcollab {
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
+.left-image{
+    min-height: 570px;
+    background-image: url('../images/nextmatch_image.jpg');
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.right-image{
+    min-height: 570px;
+    background-image: url('../images/theplayers_image.jpg');
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+
+#homepage-title {
+color: #ffffff;
+}
+
+
+p.shaded {
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    top: 400px;
+}
+
+p#second-para {
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    top: 450px;
+}
+h2#white-text {
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    top: 410px;
+}
+.vertical-text-main.white {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-25%);
+  color: #ffffff;
+  text-align: center;
+  bottom: -350px;
+}
+a.homepage-top-link-white{
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    top: 500px;
+}
+a.homepage-top-link{
+    color: #ffffff;
+}
+
+.white-margin {
+    margin: 0px;
+}
 
 
 
