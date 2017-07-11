@@ -5,16 +5,10 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Homepage" transform="translate(-398.000000, -1193.000000)" fill="#FFFFFF">
-            <g id="section2" transform="translate(140.000000, 775.000000)">
-                <g id="last-match" transform="translate(0.000000, 348.000000)">
-                    <g id="dividers" transform="translate(258.000000, 70.000000)">
-                        <polygon id="Polygon-2" points="3.86842105 0 7.5475081 2.66028457 6.1422219 6.96471543 1.59462021 6.96471543 0.189334003 2.66028457"></polygon>
-                        <polygon id="Polygon-2" points="24.5 0 28.179087 2.66028457 26.7738008 6.96471543 22.2261992 6.96471543 20.820913 2.66028457"></polygon>
-                        <polygon id="Polygon-2" points="45.1315789 0 48.810666 2.66028457 47.4053798 6.96471543 42.8577781 6.96471543 41.4524919 2.66028457"></polygon>
-                    </g>
-                </g>
-            </g>
+        <g id="dividers" fill-rule="nonzero" fill="#000000">
+            <polygon id="Polygon-2" points="3.86842105 0 7.5475081 2.66028457 6.1422219 6.96471543 1.59462021 6.96471543 0.189334003 2.66028457"></polygon>
+            <polygon id="Polygon-2" points="24.5 0 28.179087 2.66028457 26.7738008 6.96471543 22.2261992 6.96471543 20.820913 2.66028457"></polygon>
+            <polygon id="Polygon-2" points="45.1315789 0 48.810666 2.66028457 47.4053798 6.96471543 42.8577781 6.96471543 41.4524919 2.66028457"></polygon>
         </g>
     </g>
 </svg>
