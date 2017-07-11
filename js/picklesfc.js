@@ -7,7 +7,7 @@ $(document).ready(function(){
 	});
 
 	$(".successcollab").hide();
-	$(".form").submit(function(e) {
+	$("form").submit(function(e) {
     	e.preventDefault();
 		$("#collaborate").hide();
   		$(".successcollab").show();
