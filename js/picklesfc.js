@@ -11,18 +11,11 @@ $(document).ready(function(){
     	e.preventDefault();
 		$("#collaborate").hide();
   		$(".successcollab").show();
-  	});
 
-	$(".alextext").hide();
-	$(".alex").click(function(e) {
 
+});
+
+$(document).on("click", ".flip-container", function () {
+	$(this).toggleClass('hover');
 	});
-	$(".readmore").click(function() {
-  		$(".alex").hide();
-  		$(".alextext").show();
-	});
-
-
- });
-
-
+});

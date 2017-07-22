@@ -30,7 +30,7 @@
             			<li><a href="/theclub/"><span>The Club</span></a></li>
             			<li><a href="/theplayers/"><span>The Players</span></a></li>
             			<li><a href="http://picklesmagazine.co.uk/shop/" target="_blank"><span>The Shop</span></a></li>
-            			<li><a href="/collaborations/"><span>Collaborations</span></a></li>
+            			<li class="selected"><a href="/collaborations/"><span>Collaborations</span></a></li>
           			</ul>
           		</div>
 			</div>
@@ -82,14 +82,15 @@
 					<p>Pickles x Hummel shirt is made from moisture wicking polyester and ventilating mesh. Featuring the Pickles badge.</p>
 					<form role="form" class="formpadding">
          				<div class="form-group formmaxwidth">
-         					<input type="text" class="form-control" name="name" placeholder="Enter your name">
+         					<input type="text" class="form-control" name="name" placeholder="Enter your name" required>
           				</div>
           				<div class="form-group formmaxwidth">
-          					<input type="text" class="form-control" name="email" placeholder="Enter your email">
+          					<input type="email" class="form-control" name="email" placeholder="Enter your email" required>
           				</div>
           				<div class="form-group formmaxwidth">
-          					<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your message">
+          					<textarea class="form-control" rows="3" placeholder="Enter your message"></textarea>
           				</div>
+
           				<button class="enterDetails">SUBMIT<img src="/images/arrow_shape.svg" width="17" height="17"></button>
       				</form>
 
@@ -123,5 +124,7 @@
         <a href="https://twitter.com/picklesmagazine" target="_blank"><img src="/images/twitter.svg" height="25"></a>
         <a href="https://www.instagram.com/picklesmagazine/" target="_blank"><img src="/images/instagram.svg" height="25"></a>
 	</footer>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </html>

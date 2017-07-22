@@ -1,0 +1,863 @@
+$white: #fff;
+$font-stack-regular: 'Geomanist-Regular', helvetica, sans-serif;
+$font-stack-bold: 'Geomanist-Bold', helvetica, sans-serif;
+
+@font-face {
+	font-family: Geomanist-Regular;
+	src: url('fonts/Geomanist-Regular.otf');
+}
+
+@font-face {
+	font-family: Geomanist-Bold;
+	src: url('fonts/Geomanist-Bold.otf');
+}
+
+
+#header {
+	background-color: #000;
+	margin-bottom: 70px;
+
+}
+
+#header a {
+	color: $white;
+	transition: color 0.5s;
+	font-family: 'Geomanist-Bold', helvetica, sans-serif;
+	}
+
+#header a span{
+	color: $white;
+	border-bottom: 2px solid;
+	padding-bottom: 10px;
+	border-color: transparent;
+	transition: border-bottom 0.5s;
+}
+
+
+#header a span:hover{
+	color: #7ed321;
+	border-color: #7ed321;
+}
+
+#header .selected a span {
+    color: #7ED321;
+}
+
+#header img {
+	width: 40px;
+	margin-right: 10px;
+	display:inline-block;
+	vertical-align: top;
+	margin-top: -15px;
+}
+
+
+#header li {
+	margin-left: 30px;
+	font-size:20px;
+}
+
+
+.navbar {
+	padding-top: 25px;
+	padding-bottom: 20px;
+
+}
+
+.navbar-header a {
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
+	border-bottom: none;
+}
+
+.navbar-inverse {
+	background-color: #000000;
+}
+
+
+.bottom {
+	padding-bottom: 20px;
+}
+
+.homepage-main {
+    min-height: 570px;
+    background-image: url('/images/mainimage.jpg');
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    margin-bottom: 40px;
+}
+
+.vertical-text-main {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-25%);
+}
+
+.wheredoweplay {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.wanttocollaborate {
+	padding-top: 30px;
+}
+
+.wanttoplay {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.instagram{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.instagram h2 {
+	padding-bottom: 20px;
+}
+
+
+.container2 {
+    position: relative;
+    filter: grayscale(0%);
+    transition: filter 1s;
+}
+
+.container2:hover {
+    filter: grayscale(100%);
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 88%;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    font-size: 18px;
+    transition: color 1s;
+}
+
+.center:hover {
+ 	cursor: pointer;
+    color: #7ED321;
+}
+
+
+
+h3.centersmall {
+    position: absolute;
+    left: 0;
+    top: 83%;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    font-size: 18px;
+    transition: color 1s;
+}
+
+h3.centersmall:hover {
+	cursor: pointer;
+    color: #7ED321;
+}
+
+
+img.playerpics {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+
+.alextext {
+	background-color: #000000;
+	margin-bottom: 30px;
+	color: $white;
+	text-align: center;
+	padding-top: 30%;
+	padding-bottom: 23.5%;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+.readmore {
+	cursor: pointer;
+}
+
+
+img.theclubpics {
+    margin-top: 20px;
+}
+
+
+div.vertical-container {
+    height: 570px;
+    position: relative;
+}
+
+div.vertical-text-para{
+position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-60%);
+}
+
+form.formpadding {
+	padding-top: 20px;
+}
+
+.formmaxwidth input {
+	max-width: 400px;
+	display: inline-block;
+}
+
+textarea.form-control {
+    height: auto;
+    color: #000;
+    display: inline-block;
+    max-width: 400px;
+    border-color: #eee;
+    border-radius: 0px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+
+
+.form-control:focus {
+	border-color: #7DC42E;
+  	box-shadow: none;
+}
+
+
+ul.navtheclub li{
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
+	font-size: 18px;
+	display: inline-block;
+   	padding-right: 40px;
+   	padding-top: 40px;
+}
+
+
+.breadcrumb .active {
+	color: #000000;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.signoff p{
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
+}
+
+.caption p{
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	color: #999;
+}
+
+ol.breadcrumb {
+	background-color: $white;
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
+	font-size: 13px;
+	padding-left: 0px;
+}
+
+
+h1 {font-family:'Geomanist-Bold', helvetica, sans-serif;
+	font-size: 50px;
+}
+
+h2 {font-family:'Geomanist-Bold', helvetica, sans-serif;
+	font-size: 32px;
+	padding-top: 20px;
+}
+
+body {
+	font-family:'Geomanist-Bold', helvetica, sans-serif;
+	padding-top: 70px;
+	color: #000;
+}
+
+
+p {
+	font-family: 'Geomanist-Regular', helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.smalltext {
+	font-size: 11px;
+
+}
+
+a.link {
+    color: #CBCBCB;
+    font-family:'Geomanist-Bold', helvetica, sans-serif;
+    transition: color 0.5s;
+    border-bottom: 2px solid;
+    border-color: transparent;
+	transition: border-bottom 0.5s;
+}
+
+a.link:hover {
+  color: #7ED321;
+  text-decoration: none;
+  border-color: #7ed321;
+
+ }
+
+
+button.enterDetails {
+	font-family: 'Geomanist-Bold', helvetica, sans-serif;
+	font-size: 16px;
+	border-radius: 0px;
+	background-color: #7ED321;
+	vertical-align: middle;
+	border: 0px;
+	min-width: 190px;
+	height: 48px;
+	transition: background-color 0.5s;
+}
+
+button.enterDetails:hover {
+	background-color: #7DC42E;
+
+}
+
+button.enterDetails:focus {
+	outline:0;
+}
+
+
+button.enterDetails img {
+	padding-left: 3px;
+	transform: translate(0px,0);
+	transition: all 0.5s;
+}
+
+button.enterDetails:hover img {
+	transform: translate(10px,0);
+
+}
+
+.form-group input {
+	font-family:'Geomanist-Regular', helvetica, sans-serif;
+    border: 1px solid #eee;
+    color: #000;
+    height: 48px;
+    padding: 0 20px;
+    min-width: 240px;
+    border-radius: 0px;
+}
+
+textarea {
+	font-family:'Geomanist-Regular', helvetica, sans-serif;
+    border: 1px solid #eee;
+    color: #000;
+    height: 48px;
+    padding: 0 20px;
+    min-width: 240px;
+    border-radius: 0px;
+}
+
+
+
+input.form-control:focus {
+  border-color: #7DC42E;
+  box-shadow: none;
+}
+input#formGroupExampleInput{
+  padding-bottom: 48px;
+}
+
+
+.btn-secondary {
+	padding-left: 10px;
+}
+
+.btn-secondary img {
+	padding-left: 5px;
+	cursor: pointer;
+	transform: translate(0px,0);
+	transition: all 0.5s;
+}
+
+.btn-secondary:hover img {
+	transform: translate(10px,0);
+}
+
+
+.btn-secondary a {
+	color: #000000;
+	border-bottom: none;
+	font-size: 16px;
+  	transition: color 0.5s;
+  	text-decoration: none;
+}
+
+.btn-secondary a:hover {
+	color: #7DC42E;
+}
+
+
+.success {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+
+.successcollab {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.left-image{
+    min-height: 570px;
+    background-image: url('../images/nextmatch_image.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+
+.right-image{
+    min-height: 570px;
+    background-image: url('../images/theplayers_image.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+
+#homepage-title {
+color: $white;
+}
+
+.playpicpadding {
+	margin-bottom: 60px;
+}
+
+p.shaded {
+    color: $white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    top: 400px;
+    padding-right: 40px;
+}
+
+p#second-para {
+    color: $white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    top: 450px;
+    padding-right: 40px;
+}
+
+h2#white-text {
+    color: $white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    top: 410px;
+    padding-right: 40px;
+}
+
+.vertical-text-main.white {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-25%);
+  color: $white;
+  text-align: center;
+  bottom: -350px;
+}
+
+.vertical-text-para h2 {
+ margin-top: 0px;
+}
+
+
+a.homepage-top-link-white{
+    color: $white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    top: 500px;
+    padding-right: 40px;
+}
+
+a.homepage-top-link{
+    color: $white;
+}
+
+.white-margin {
+    margin-left: 0px;
+}
+
+
+
+#formGroupExampleInput {
+	min-height: 100px;
+}
+
+
+#footer {
+	background-color: #000000;
+	color: $white;
+	font-family:'Geomanist-Regular', helvetica, sans-serif;
+	margin: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+
+#footer p{
+	font-size: 13px;
+}
+
+.dividers {
+	padding-top: 10px;
+}
+
+#footer img{
+	padding-right: 15px;
+	padding-left: 15px;
+	color: $white;
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+
+#footer img:hover{
+	opacity: 0.5;
+}
+
+.right{
+	float: right;
+
+}
+
+.flip-container {
+  perspective: 1000px;
+}
+
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+.back {
+  transform: rotateY(180deg);
+  background-color: #000000;
+  color: $white;
+  width: 360px;
+  height: 371px;
+  padding: 100px 20px 0px 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+
+
+
+@media (max-width: 1199px) {
+	.back {
+	display: block;
+    max-width: 100%;
+    height: 300px;
+    padding: 50px 20px 0px 20px;
+    box-sizing: border-box;
+
+	}
+}
+
+@media (max-width: 991px) {
+
+	#header li {
+  	margin-left: 0px;
+  	font-size: 18px;
+
+	}
+	.back {
+	display: block;
+    max-width: 100%;
+    height: 227px;
+    padding: 50px 20px 0px 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+	}
+
+	.center {
+		top: 85%;
+	}
+
+	h3.centersmall {
+    position: absolute;
+    left: 0;
+    top: 79%;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    font-size: 16px;
+    transition: color 1s;
+    padding-top: -10px;
+  }
+
+  p.playerstats {
+  	font-size: 16px;
+  	line-height: 24px;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+.center {
+	top: 91%;
+	font-size: 24px;
+}
+
+h3.centersmall {
+    position: absolute;
+    left: 0;
+    top: 83%;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    font-size: 24px;
+    transition: color 1s;
+    padding-top: -10px;
+  }
+
+
+.form-group input {
+	margin-bottom: 20px;
+}
+
+.flip-container {
+  perspective: 1000px;
+}
+
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+  width: 100%;
+  margin-bottom: 30px;
+}
+.back {
+  transform: rotateY(180deg);
+  background-color: #000000;
+  color: $white;
+  width: 737px;
+  height: 700px;
+  margin-bottom: 30px;
+  padding: 100px 40px 0px 40px;
+  text-align: center;
+  box-sizing: border-box;
+ }
+ p.playerstats {
+  	font-size: 18px;
+  	line-height: 32px;
+  	padding-right: 40px;
+  	padding-left: 40px;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+.center {
+	top: 91%;
+	font-size: 24px;
+}
+
+h3.centersmall {
+    position: absolute;
+    left: 0;
+    top: 83%;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    font-size: 24px;
+    transition: color 1s;
+    padding-top: -10px;
+  }
+
+
+.form-group input {
+	margin-bottom: 20px;
+}
+
+.flip-container {
+  perspective: 1000px;
+}
+
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+  width: 100%;
+  margin-bottom: 30px;
+}
+.back {
+  transform: rotateY(180deg);
+  background-color: #000000;
+  color: $white;
+  width: 737px;
+  height: 620px;
+  margin-bottom: 30px;
+  padding: 100px 40px 0px 40px;
+  text-align: center;
+  box-sizing: border-box;
+ }
+ p.playerstats {
+  	font-size: 18px;
+  	line-height: 32px;
+  	padding-right: 40px;
+  	padding-left: 40px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+.left-image {
+    min-height: 570px;
+    background-image: url(../images/nextmatch_image.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    margin-right: 15px;
+ }
+
+.right-image {
+    min-height: 570px;
+    background-image: url(../images/theplayers_image.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    margin-right: 15px;
+    margin-top: 40px;
+}
+
+
+.homepage-main {
+    min-height: 400px;
+    background-image: url(/images/mainimage.jpg);
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    margin-bottom: 40px;
+}
+
+.form-club {
+	margin-bottom: 10px;
+}
+
+.form-group {
+	margin-bottom: 0px;
+}
+
+textarea.form-control {
+	margin-bottom: 10px;
+}
+
+button.enterDetails {
+    width: 100%;
+ }
+
+.form-group input {
+   margin-bottom: 20px;
+ }
+
+.back {
+  transform: rotateY(180deg);
+  background-color: #000000;
+  color: $white;
+  width: 737px;
+  height: 382px;
+  margin-bottom: 30px;
+  padding: 100px 40px 0px 40px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+ h3.centersmall {
+    position: absolute;
+    left: 0;
+    top: 83%;
+    width: 100%;
+    color: $white;
+    text-align: center;
+    font-size: 18px;
+    transition: color 1s;
+    padding-top: -10px;
+  }
+
+ .center {
+		top: 88%;
+		font-size: 18px;
+	}
+
+}
+
