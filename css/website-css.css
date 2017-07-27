@@ -69,6 +69,10 @@
   border-radius: 0px;
   margin-bottom: 40px; }
 
+.textblock {
+  width: 60%;
+  margin: auto; }
+
 .vertical-text-main {
   position: absolute;
   top: 50%;
@@ -435,6 +439,12 @@ a.homepage-top-link {
 .white-margin {
   margin-left: 0px; }
 
+.imagebottom {
+  margin-bottom: 30px; }
+
+.imagetop {
+  margin-top: 30px; }
+
 #formGroupExampleInput {
   min-height: 100px; }
 
@@ -548,6 +558,11 @@ a.homepage-top-link {
     line-height: 24px; } }
 
 @media (max-width: 767px) {
+  .textblock {
+    width: 100%;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px; }
   .center {
     top: 91%;
     font-size: 24px; }
@@ -657,7 +672,7 @@ a.homepage-top-link {
     background-color: #000000;
     color: #fff;
     width: 737px;
-    height: 620px;
+    height: 600px;
     margin-bottom: 30px;
     padding: 100px 40px 0px 40px;
     text-align: center;
