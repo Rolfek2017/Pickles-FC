@@ -213,7 +213,7 @@ position: absolute;
   transform: translate(-50%,-60%);
 }
 
-form.formpadding {
+/*form.formpadding {
 	padding-top: 20px;
 }
 
@@ -239,7 +239,7 @@ textarea.form-control {
 .form-control:focus {
 	border-color: #7DC42E;
   	box-shadow: none;
-}
+}*/
 
 
 ul.navtheclub li{
@@ -321,7 +321,7 @@ a.link:hover {
 
  }
 
-
+/*
 button.enterDetails {
 	font-family: 'Geomanist-Bold', helvetica, sans-serif;
 	font-size: 16px;
@@ -353,9 +353,9 @@ button.enterDetails img {
 button.enterDetails:hover img {
 	transform: translate(10px,0);
 
-}
+}*/
 
-.form-group input {
+/*.form-group input {
 	font-family:'Geomanist-Regular', helvetica, sans-serif;
     border: 1px solid #eee;
     color: #000;
@@ -383,6 +383,71 @@ input.form-control:focus {
 }
 input#formGroupExampleInput{
   padding-bottom: 48px;
+}*/
+
+section {
+	overflow: hidden;
+	margin: auto;
+    width: 50%;
+}
+/* Changes the style of the overall form */
+#mc_embed_signup {
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Adds extra space around the input boxes */
+#mc_embed_signup .mc-field-group {
+    padding: 10px 0;
+}
+
+/* Styles the input boxes */
+#mc_embed_signup  input {
+    background-color: #fff;
+    color: #1F1B1C;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 16px;
+    width: 70%;
+    border: 1px solid #ddd;
+}
+
+/* Styles the subscribe button */
+#mc_embed_signup .button {
+	margin-top: 10px;
+    background-color: #7ED321;
+    color: #000000;
+    width: 200px;
+    border: 0;
+}
+
+input[type="submit"], .button {
+	font-family: 'Geomanist-Bold', helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #7ED321;
+    border: 1px solid #ddd;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px 24px;
+    text-transform: uppercase;
+    width: 700px;
+	height: 48px;
+	transition: background-color 0.5s;
+
+
+}
+
+#mc_embed_signup .button:hover {
+	background-color: #7DC42E;
+
+}
+
+#mc_embed_signup input:focus,
+textarea:focus {
+	border: 1px solid #7ED321;
+	outline: none;
 }
 
 
@@ -658,7 +723,7 @@ a.homepage-top-link{
 	width: 100%;
 	margin: auto;
 	padding-right: 15px;
-	padding-left: 15px;
+	padding-left:15px;
 }
 
 .center {
