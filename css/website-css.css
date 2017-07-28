@@ -248,20 +248,34 @@ textarea.form-control {
     margin: 20px auto;
     text-transform: uppercase;
     transition: background-color 0.5s;
-}
 
+}
 
 
 #mc_embed_signup .buttonnew:hover  {
 	background-color: #7DC42E;
-
 }
 
-#mc_embed_signup .buttonnew:focus  {
+#mc_embed_signup.buttonnew:focus  {
 	border: 0;
 	text-decoration-style: none;
 
 }
+
+
+#mc_embed_signup img {
+	position:absolute;
+ 	right: 170px;
+ 	bottom: 45px;
+ 	 transition: all 0.5s;
+  	transform: translate(0px, 0);
+  }
+
+  #mc_embed_signup img:hover {
+ 	 transform: translate(10px, 0);
+  }
+
+
 
 #mc_embed_signup .mc-field-group input:focus,
 textarea:focus {
@@ -332,6 +346,10 @@ textarea:focus {
     clear: both;
 
    }
+
+
+
+
 
 ul.navtheclub li {
   font-family: 'Geomanist-Bold', helvetica, sans-serif;
