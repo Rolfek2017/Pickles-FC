@@ -247,6 +247,8 @@ div.vertical-text-para {
     border-radius: 0;
     margin: 20px auto;
     text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
     transition: all 0.5s;
     background: #7ED321 url(/images/arrow_shape.svg) no-repeat 72% 50%;
     background-size: 17px 17px;
@@ -890,3 +892,5 @@ a.homepage-top-link {
     font-size: 18px; } }
 
 /*# sourceMappingURL=website-css.css.map */
+
+/*# sourceMappingURL=website-css-dist.css.map */
