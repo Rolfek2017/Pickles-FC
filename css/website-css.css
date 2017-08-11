@@ -1,3 +1,8 @@
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 @font-face {
   font-family: Geomanist-Regular;
   src: url("fonts/Geomanist-Regular.otf"); }
@@ -5,6 +10,12 @@
 @font-face {
   font-family: Geomanist-Bold;
   src: url("fonts/Geomanist-Bold.otf"); }
+
+body,
+img {
+	  animation: fade 1s both;
+}
+
 
 #header {
   background-color: #000;
